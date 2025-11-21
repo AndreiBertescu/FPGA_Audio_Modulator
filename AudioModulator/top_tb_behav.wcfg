@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="86.412041 us"></ZoomStartTime>
+      <ZoomEndTime time="294.012042 us"></ZoomEndTime>
+      <Cursor1Time time="144.012041 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="259"></NameColumnWidth>
+      <ValueColumnWidth column_width="239"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="34" />
+   <wvobject fp_name="/top_tb/DUV/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/btnc" type="logic">
+      <obj_property name="ElementShortName">btnc</obj_property>
+      <obj_property name="ObjectShortName">btnc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/reset_i" type="logic">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/ac_adc_sdata" type="logic">
+      <obj_property name="ElementShortName">ac_adc_sdata</obj_property>
+      <obj_property name="ObjectShortName">ac_adc_sdata</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/ac_dac_sdata" type="logic">
+      <obj_property name="ElementShortName">ac_dac_sdata</obj_property>
+      <obj_property name="ObjectShortName">ac_dac_sdata</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/ac_bclk" type="logic">
+      <obj_property name="ElementShortName">ac_bclk</obj_property>
+      <obj_property name="ObjectShortName">ac_bclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/ac_lrclk" type="logic">
+      <obj_property name="ElementShortName">ac_lrclk</obj_property>
+      <obj_property name="ObjectShortName">ac_lrclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/ac_mclk" type="logic">
+      <obj_property name="ElementShortName">ac_mclk</obj_property>
+      <obj_property name="ObjectShortName">ac_mclk</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider51">
+      <obj_property name="label">I2S</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/audio_i2s_inst/bclk_10x" type="logic">
+      <obj_property name="ElementShortName">bclk_10x</obj_property>
+      <obj_property name="ObjectShortName">bclk_10x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/audio_i2s_inst/ac_bclk" type="logic">
+      <obj_property name="ElementShortName">ac_bclk</obj_property>
+      <obj_property name="ObjectShortName">ac_bclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/audio_i2s_inst/ac_lrclk" type="logic">
+      <obj_property name="ElementShortName">ac_lrclk</obj_property>
+      <obj_property name="ObjectShortName">ac_lrclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/audio_i2s_inst/bclk_pulse" type="logic">
+      <obj_property name="ElementShortName">bclk_pulse</obj_property>
+      <obj_property name="ObjectShortName">bclk_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/audio_i2s_inst/lrclk_pulse" type="logic">
+      <obj_property name="ElementShortName">lrclk_pulse</obj_property>
+      <obj_property name="ObjectShortName">lrclk_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/audio_i2s_inst/ac_adc_sdata" type="logic">
+      <obj_property name="ElementShortName">ac_adc_sdata</obj_property>
+      <obj_property name="ObjectShortName">ac_adc_sdata</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/audio_i2s_inst/ac_dac_sdata" type="logic">
+      <obj_property name="ElementShortName">ac_dac_sdata</obj_property>
+      <obj_property name="ObjectShortName">ac_dac_sdata</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider52">
+      <obj_property name="label">I2C</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/audio_i2c_inst/i2c_clock" type="logic">
+      <obj_property name="ElementShortName">i2c_clock</obj_property>
+      <obj_property name="ObjectShortName">i2c_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/audio_i2c_inst/busy_o" type="logic">
+      <obj_property name="ElementShortName">busy_o</obj_property>
+      <obj_property name="ObjectShortName">busy_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/audio_i2c_inst/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/audio_i2c_inst/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider681">
+      <obj_property name="label">AUDIO_TRANSFER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/start_long" type="logic">
+      <obj_property name="ElementShortName">start_long</obj_property>
+      <obj_property name="ObjectShortName">start_long</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/new_sample" type="logic">
+      <obj_property name="ElementShortName">new_sample</obj_property>
+      <obj_property name="ObjectShortName">new_sample</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/sample_left" type="array">
+      <obj_property name="ElementShortName">sample_left[23:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_left[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/sample_right" type="array">
+      <obj_property name="ElementShortName">sample_right[23:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_right[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/sample_sh_reg" type="array">
+      <obj_property name="ElementShortName">sample_sh_reg[47:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_sh_reg[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/tx_ptr" type="array">
+      <obj_property name="ElementShortName">tx_ptr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ptr[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/sh_reg_counter" type="array">
+      <obj_property name="ElementShortName">sh_reg_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_reg_counter[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/tx_addr" type="array">
+      <obj_property name="ElementShortName">tx_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_addr[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/tx_wea" type="logic">
+      <obj_property name="ElementShortName">tx_wea</obj_property>
+      <obj_property name="ObjectShortName">tx_wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+</wave_config>

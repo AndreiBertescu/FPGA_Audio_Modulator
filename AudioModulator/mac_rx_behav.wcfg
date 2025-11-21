@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="8,029.719 ns"></ZoomStartTime>
+      <ZoomEndTime time="9,194.720 ns"></ZoomEndTime>
+      <Cursor1Time time="8,530.270 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="188"></NameColumnWidth>
+      <ValueColumnWidth column_width="183"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/reset_i" type="logic">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/busy_o" type="logic">
+      <obj_property name="ElementShortName">busy_o</obj_property>
+      <obj_property name="ObjectShortName">busy_o</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider172">
+      <obj_property name="label">MAC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/correct_id" type="logic">
+      <obj_property name="ElementShortName">correct_id</obj_property>
+      <obj_property name="ObjectShortName">correct_id</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/nibble_ptr" type="array">
+      <obj_property name="ElementShortName">nibble_ptr[23:0]</obj_property>
+      <obj_property name="ObjectShortName">nibble_ptr[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/input_sh_reg" type="array">
+      <obj_property name="ElementShortName">input_sh_reg[111:0]</obj_property>
+      <obj_property name="ObjectShortName">input_sh_reg[111:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/wea" type="logic">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/addr" type="array">
+      <obj_property name="ElementShortName">addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/data" type="array">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider173">
+      <obj_property name="label">RX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/eth_rxck" type="logic">
+      <obj_property name="ElementShortName">eth_rxck</obj_property>
+      <obj_property name="ObjectShortName">eth_rxck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/eth_rxctl_dd" type="logic">
+      <obj_property name="ElementShortName">eth_rxctl_dd</obj_property>
+      <obj_property name="ObjectShortName">eth_rxctl_dd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/eth_rxctl_d" type="logic">
+      <obj_property name="ElementShortName">eth_rxctl_d</obj_property>
+      <obj_property name="ObjectShortName">eth_rxctl_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/eth_rxctl" type="logic">
+      <obj_property name="ElementShortName">eth_rxctl</obj_property>
+      <obj_property name="ObjectShortName">eth_rxctl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/eth_rxd" type="array">
+      <obj_property name="ElementShortName">eth_rxd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_rxd[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_rx_inst/eth_rxd_d" type="array">
+      <obj_property name="ElementShortName">eth_rxd_d[3:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_rxd_d[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider174">
+      <obj_property name="label">.</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/eth_rx_data" type="array">
+      <obj_property name="ElementShortName">eth_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/reg_value" type="array">
+      <obj_property name="ElementShortName">reg_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_value[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/reg_addr" type="array">
+      <obj_property name="ElementShortName">reg_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_addr[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/audio_i2s_inst/reg_wea_i" type="logic">
+      <obj_property name="ElementShortName">reg_wea_i</obj_property>
+      <obj_property name="ObjectShortName">reg_wea_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/reg_addr_dd" type="array">
+      <obj_property name="ElementShortName">reg_addr_dd[10:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_addr_dd[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/audio_i2s_inst/reg_addr_i" type="array">
+      <obj_property name="ElementShortName">reg_addr_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_addr_i[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/audio_i2s_inst/reg_value_i" type="array">
+      <obj_property name="ElementShortName">reg_value_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_value_i[31:0]</obj_property>
+   </wvobject>
+</wave_config>

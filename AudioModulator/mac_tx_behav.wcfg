@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="7,540.500 ns"></ZoomStartTime>
+      <ZoomEndTime time="10,000.501 ns"></ZoomEndTime>
+      <Cursor1Time time="8,660.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="234"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/top_tb/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_tx_inst/tx_clk_i" type="logic">
+      <obj_property name="ElementShortName">tx_clk_i</obj_property>
+      <obj_property name="ObjectShortName">tx_clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/bclk_reset" type="logic">
+      <obj_property name="ElementShortName">bclk_reset</obj_property>
+      <obj_property name="ObjectShortName">bclk_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/reset_i" type="logic">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/btnl" type="logic">
+      <obj_property name="ElementShortName">btnl</obj_property>
+      <obj_property name="ObjectShortName">btnl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/btnl_d" type="logic">
+      <obj_property name="ElementShortName">btnl_d</obj_property>
+      <obj_property name="ObjectShortName">btnl_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/start_long" type="logic">
+      <obj_property name="ElementShortName">start_long</obj_property>
+      <obj_property name="ObjectShortName">start_long</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_tx_inst/busy_o" type="logic">
+      <obj_property name="ElementShortName">busy_o</obj_property>
+      <obj_property name="ObjectShortName">busy_o</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider14">
+      <obj_property name="label">MAC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_tx_inst/state" type="array">
+      <obj_property name="ElementShortName">state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_tx_inst/nibble_ptr" type="array">
+      <obj_property name="ElementShortName">nibble_ptr[23:0]</obj_property>
+      <obj_property name="ObjectShortName">nibble_ptr[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus344" type="vbus">
+      <obj_property name="label">preframe</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_tb/DUV/mac_tx_inst/preframe[175]" type="logic">
+         <obj_property name="ElementShortName">[175]</obj_property>
+         <obj_property name="ObjectShortName">[175]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/DUV/mac_tx_inst/preframe[174]" type="logic">
+         <obj_property name="ElementShortName">[174]</obj_property>
+         <obj_property name="ObjectShortName">[174]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/DUV/mac_tx_inst/preframe[173]" type="logic">
+         <obj_property name="ElementShortName">[173]</obj_property>
+         <obj_property name="ObjectShortName">[173]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/DUV/mac_tx_inst/preframe[172]" type="logic">
+         <obj_property name="ElementShortName">[172]</obj_property>
+         <obj_property name="ObjectShortName">[172]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/DUV/mac_tx_inst/preframe[171]" type="logic">
+         <obj_property name="ElementShortName">[171]</obj_property>
+         <obj_property name="ObjectShortName">[171]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/DUV/mac_tx_inst/preframe[170]" type="logic">
+         <obj_property name="ElementShortName">[170]</obj_property>
+         <obj_property name="ObjectShortName">[170]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/DUV/mac_tx_inst/preframe[169]" type="logic">
+         <obj_property name="ElementShortName">[169]</obj_property>
+         <obj_property name="ObjectShortName">[169]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/DUV/mac_tx_inst/preframe[168]" type="logic">
+         <obj_property name="ElementShortName">[168]</obj_property>
+         <obj_property name="ObjectShortName">[168]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_tx_inst/data_addr" type="array">
+      <obj_property name="ElementShortName">data_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">data_addr[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_tx_inst/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_tx_inst/postframe" type="array">
+      <obj_property name="ElementShortName">postframe[31:0]</obj_property>
+      <obj_property name="ObjectShortName">postframe[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider15">
+      <obj_property name="label">TX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/eth_txck" type="logic">
+      <obj_property name="ElementShortName">eth_txck</obj_property>
+      <obj_property name="ObjectShortName">eth_txck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/eth_txctl" type="logic">
+      <obj_property name="ElementShortName">eth_txctl</obj_property>
+      <obj_property name="ObjectShortName">eth_txctl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/eth_txd" type="array">
+      <obj_property name="ElementShortName">eth_txd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_txd[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider158">
+      <obj_property name="label">CRC32</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_tx_inst/crc32_generator/enable_i" type="logic">
+      <obj_property name="ElementShortName">enable_i</obj_property>
+      <obj_property name="ObjectShortName">enable_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_tx_inst/crc32_generator/crc_i" type="array">
+      <obj_property name="ElementShortName">crc_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">crc_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_tx_inst/crc32_generator/crc_reg" type="array">
+      <obj_property name="ElementShortName">crc_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">crc_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/mac_tx_inst/crc32_generator/crc_o" type="array">
+      <obj_property name="ElementShortName">crc_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">crc_o[31:0]</obj_property>
+   </wvobject>
+</wave_config>
